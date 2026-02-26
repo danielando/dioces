@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Environment variables
+.env
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Data (local working files)
+data/templates/
+data/logos/
+data/output/
+
+# Azure Functions
+local.settings.json
+.python_packages/
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Test output
+.pytest_cache/
+htmlcov/
+.coverage
